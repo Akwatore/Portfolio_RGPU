@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 533
+  Height = 608
+  Top = 146
+  Width = 648
+  Caption = 'Form1'
+  ClientHeight = 608
+  ClientWidth = 648
+  Color = 11664525
+  LCLVersion = '1.6.4.0'
+  object Image1: TImage
+    Left = 40
+    Height = 288
+    Top = 256
+    Width = 280
+  end
+  object Image2: TImage
+    Left = 328
+    Height = 288
+    Top = 256
+    Width = 280
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 20
+    Top = 568
+    Width = 335
+    Caption = 'Работу выполнила: Пляскина Ульяна Сергеевна'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 80
+    Height = 57
+    Top = 120
+    Width = 203
+    Caption = 'Нарисовать цилиндр'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 368
+    Height = 57
+    Top = 120
+    Width = 203
+    Caption = 'Нарисовать куб'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+end

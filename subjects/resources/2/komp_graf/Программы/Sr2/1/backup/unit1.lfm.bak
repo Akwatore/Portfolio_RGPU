@@ -1,0 +1,28 @@
+object Form1: TForm1
+  Left = 533
+  Height = 532
+  Top = 146
+  Width = 555
+  Caption = 'Form1'
+  ClientHeight = 532
+  ClientWidth = 555
+  Color = 16623003
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Button1: TButton
+    Left = 216
+    Height = 73
+    Top = 184
+    Width = 139
+    Caption = 'Нажми'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Image1: TImage
+    Left = 96
+    Height = 178
+    Top = 320
+    Width = 370
+    Transparent = True
+  end
+end

@@ -1,0 +1,161 @@
+object Form1: TForm1
+  Left = 533
+  Height = 583
+  Top = 146
+  Width = 550
+  BorderStyle = bsSingle
+  Caption = 'Form1'
+  ClientHeight = 583
+  ClientWidth = 550
+  Color = 14911480
+  LCLVersion = '1.6.4.0'
+  object Image1: TImage
+    Left = 80
+    Height = 202
+    Top = 336
+    Width = 402
+  end
+  object Button1: TButton
+    Left = 152
+    Height = 41
+    Top = 264
+    Width = 263
+    Caption = 'Нарисовать треугольник'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 128
+    Height = 26
+    Top = 32
+    Width = 309
+    Caption = 'Введите вершины треугольника'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 81
+    Height = 20
+    Top = 108
+    Width = 78
+    Caption = 'Вершина А'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 81
+    Height = 20
+    Top = 152
+    Width = 77
+    Caption = 'Вершина В'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 81
+    Height = 20
+    Top = 200
+    Width = 77
+    Caption = 'Вершина С'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 208
+    Height = 28
+    Top = 108
+    Width = 80
+    OnChange = Edit1Change
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 208
+    Height = 28
+    Top = 152
+    Width = 80
+    TabOrder = 2
+  end
+  object Edit3: TEdit
+    Left = 208
+    Height = 28
+    Top = 200
+    Width = 80
+    TabOrder = 3
+  end
+  object Edit4: TEdit
+    Left = 344
+    Height = 28
+    Top = 108
+    Width = 80
+    TabOrder = 4
+  end
+  object Edit5: TEdit
+    Left = 344
+    Height = 28
+    Top = 152
+    Width = 80
+    TabOrder = 5
+  end
+  object Edit6: TEdit
+    Left = 344
+    Height = 28
+    Top = 200
+    Width = 80
+    TabOrder = 6
+  end
+  object Label5: TLabel
+    Left = 312
+    Height = 25
+    Top = 108
+    Width = 8
+    Caption = ':'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 312
+    Height = 25
+    Top = 152
+    Width = 8
+    Caption = ':'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 312
+    Height = 25
+    Top = 200
+    Width = 8
+    Caption = ':'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 24
+    Height = 20
+    Top = 552
+    Width = 335
+    Caption = 'Работу выполнила: Пляскина Ульяна Сергеевна'
+    ParentColor = False
+  end
+end

@@ -1,0 +1,109 @@
+object Form1: TForm1
+  Left = 533
+  Height = 624
+  Top = 146
+  Width = 722
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Правильный многоугольник'
+  ClientHeight = 624
+  ClientWidth = 722
+  Color = 8388863
+  LCLVersion = '1.6.4.0'
+  object Label1: TLabel
+    Left = 184
+    Height = 31
+    Top = 40
+    Width = 320
+    Caption = 'Правильный многоугольник'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -27
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 26
+    Top = 104
+    Width = 272
+    Caption = 'Введите колличество углов:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 32
+    Height = 28
+    Top = 144
+    Width = 128
+    OnChange = Edit1Change
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 0
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 26
+    Top = 184
+    Width = 223
+    Caption = 'Введите длину сторон:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit2: TEdit
+    Left = 32
+    Height = 28
+    Top = 224
+    Width = 128
+    OnChange = Edit1Change
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 432
+    Height = 65
+    Top = 145
+    Width = 187
+    Caption = 'Нарисовать!'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -27
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Image1: TImage
+    Left = 40
+    Height = 288
+    Top = 288
+    Width = 640
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 22
+    Top = 592
+    Width = 408
+    Caption = 'Работу выполнила: Пляскина Ульяна Сергеевна'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end

@@ -1,0 +1,36 @@
+object Form1: TForm1
+  Left = 533
+  Height = 532
+  Top = 146
+  Width = 555
+  Caption = 'Form1'
+  ClientHeight = 532
+  ClientWidth = 555
+  Color = 16623003
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Button1: TButton
+    Left = 160
+    Height = 73
+    Top = 168
+    Width = 243
+    Caption = 'Нарисовать треугольник'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Image1: TImage
+    Left = 96
+    Height = 178
+    Top = 256
+    Width = 370
+    Transparent = True
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 20
+    Top = 488
+    Width = 335
+    Caption = 'Работу выполнила: Пляскина Ульяна Сергеевна'
+    ParentColor = False
+  end
+end

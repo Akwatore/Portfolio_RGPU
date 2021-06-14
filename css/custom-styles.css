@@ -1,0 +1,313 @@
+body, html, .container {
+	margin : 0px;
+	padding : 0px;
+	width : 100%;
+	height : 100%;
+}
+
+.main-content {
+	background-color : #101352;
+}
+
+
+.first-row .logo {
+	margin-left : 3%;
+}
+
+
+.horizontal-divider {
+	background-color : rgba(255,255,255,0.2);
+	height : 1px;
+	margin-top : 10px;
+}
+
+
+/*---------------------*/
+
+.first-row .name {
+	Font-Family: Fira Sans;
+	Font-weight : bold;
+	Font-Size: 36px;
+	color : rgb(255,255,255);
+}
+
+.name, .archive, .contacts, .search {
+	text-align : center;
+}
+
+.link {
+	transition-property: all;
+	transition-duration : 0.2s;
+	transition-timing-function : ease-in;
+}
+
+.link:hover {
+	transform : scale(1.04);
+}
+
+.link a{
+	text-decoration : none;
+	Font-Family: Fira Sans;
+	Font-Style: Regular;
+	Font-Size: 28px;
+	color : rgb(255,255,255);
+	transition-property: all;
+	transition-duration : 0.2s;
+	transition-timing-function : ease-in;
+}
+
+.link a:hover{
+	color : rgb(230,230,230);
+	outline : none;
+	text-shadow : 1px 1px 10px #000;
+}
+
+.svg-icon{
+	width : 40px;
+	fill : rgb(255,255,255);
+	transition-property: all;
+	transition-duration : 0.2s;
+	transition-timing-function : ease-in;
+}
+
+.svg-icon path{
+	fill : inherit;
+	stroke : inherit;
+	stroke-width : inherit;
+}
+
+.svg-icon:hover{
+	fill : rgb(230,230,230);
+	cursor : pointer;
+	transform : scale(1.04);
+	filter: drop-shadow( 1px 1px 10px #ffffff);
+}
+
+.png-link-icon {
+	width : 40px;
+	transition-property: all;
+	transition-duration : 0.2s;
+	transition-timing-function : ease-in;
+}
+.png-link-icon:hover{
+	cursor : pointer;
+	transform : scale(1.04);
+	filter: drop-shadow( 1px 1px 10px #ffffff);
+}
+
+/*---------------------*/
+
+.second-row .text .header{
+	Font-Family: Fira Sans;
+	Font-Style: bold;
+	Font-Size: 48px;
+	color : rgb(255,255,255);
+}
+
+.second-row .text .body{
+	Font-Family: Fira Sans;
+	Font-weight : light;
+	Font-Size: 25px;
+	color : rgb(255,255,255);
+	margin-top : 5%;
+}
+
+.button{
+	border-radius: 15px;
+	background-color : rgb(255,80,5);
+	width : 232px;
+	height : 57px;
+	text-align : center;
+	outline : none;
+	border : none;
+	transition-property: all;
+	transition-duration : 0.3s;
+	transition-timing-function : ease-in;
+	Font-Size: 20px;
+	color : rgb(230,230,230);
+
+}
+
+.button:hover{
+	background-color : rgb(255,40,0);
+	color : rgb(255,255,255);
+
+}
+
+.second-row .photo {
+	text-align : center;
+}
+
+.second-row .button-wrap {
+	text-align : center;
+}
+
+/*---------------------*/
+
+.year{
+	text-align : center;
+	Font-Family: Fira Sans;
+	Font-Size: 36px;
+	color : rgb(255,255,255);
+}
+
+.year-wrap {
+	margin-top : 3%;
+}
+
+.year-wrap div, .subject div{
+	text-align : center;
+	transition-property: all;
+	transition-duration : 0.3s;
+	transition-timing-function : ease-in;
+	margin-top : 2%;
+}
+
+
+.year-wrap div:hover, .subject div:hover{
+	transform : scale(1.04);
+}
+
+.year-wrap a{
+	Font-Family: Fira Sans;
+	Font-Size: 25px;
+	color : rgb(255,255,255);
+	text-decoration : none;
+	outline : none;
+	transition-property: all;
+	transition-duration : 0.3s;
+	transition-timing-function : ease-in;
+}
+
+.year-wrap a:hover{
+	text-shadow : 1px 1px 10px rgba(230,230,230,0.6);
+	color : rgb(200,200,200);
+}
+
+/*---------------------*/
+
+.footer {
+	margin-top : 32%;
+	text-align : center;
+}
+
+.footer .made-with img{
+	width : 31px;
+	margin-left : 5px;
+	margin-right : 5px;
+	transition-property: all;
+	transition-duration : 0.3s;
+	transition-timing-function : ease-in;
+}
+
+.footer .made-with img:hover{
+	transform : scale(1.2);
+	filter: drop-shadow( 1px 1px 10px rgba(230,230,230,0.6));
+}
+
+.footer .made-with, .footer .email{
+	Font-Family: Fira Sans;
+	font-weight : light;
+	Font-Size: 24px;
+	color : rgb(255,255,255);
+}
+
+
+
+
+/*---------------------*/
+
+/* ПК */
+
+@media (min-width: 992px) {
+	.name {
+		margin-top : 3.0%;
+	}
+
+	.link, .archive, .contacts, .search {
+		margin-top : 3.5%;
+	}
+
+	.photo img {
+		width : 360px;
+		height : 360px;
+	}
+
+	.second-row .button {
+		margin-top : 50px;
+		margin-right : -5%;
+	}
+
+	.second-row{
+		margin-top : 7%;
+	}
+
+	.third-row {
+		margin-top : 15.5%;
+		padding-bottom : 2%;
+	}
+
+	.second-row .text .header, .second-row .text .body{
+		text-align: right;
+	}
+
+	.margin {
+		margin-top : 10%;
+	}
+}
+
+/* Планшеты */
+
+@media (max-width: 991px) {
+	.second-row .text .header, .second-row .text .body{
+		text-align: center;
+	}
+
+	.second-row .button {
+		margin-top : 50px;
+
+	}
+
+	.link{
+		Font-Size: 36px;
+		border : 1px solid rgba(255,255,255,0.1);
+		border-radius : 20px;
+		padding : 10px;
+		margin-left : 40px;
+		margin-right : 40px;
+		margin-top : 5px;
+	}
+
+	.margin {
+		margin-top : 10%;
+	}
+
+}
+
+/* Телефоны */
+
+@media (max-width: 767px) {
+
+	.photo img {
+		width : 60%;
+	}
+
+
+}
+
+
+/*---------------------*/
+
+.active-link a{
+	color : rgba(255,255,255,0.4);
+	border-bottom : 1px solid rgba(255,255,255,0.4);
+}
+
+.svg-link a {
+	border-bottom : none;
+}
+
+
+.active-link svg{
+	fill : rgba(255,255,255,0.4);
+}

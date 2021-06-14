@@ -1,0 +1,103 @@
+.second-row {
+	margin-top : 15%;
+	margin-bottom : 13%;
+}
+
+.second-row .left-part .header, .second-row .right-part .header, .third-row .header{
+	Font-Family: Fira Sans;
+	Font-Size: 36px;
+	font-weight : bold;
+	color : rgb(255,255,255);	
+}
+
+.second-row .left-part .text, .second-row .right-part .text, .third-row .text{
+	Font-Family: Fira Sans;
+	Font-Size: 23px;
+	color : rgb(255,255,255);	
+	margin-bottom : 40px;
+}
+
+.third-row .form-label {
+	text-align : center;
+}
+
+
+/*---------------------*/
+
+.form-wrap {
+	text-align : center;	
+}
+
+.form-name, .form-email, .form-text {
+	width : 571px;
+	height : 52px;
+	font-size : 24px;
+	margin-bottom : 20px;
+	padding : 10px;
+	Font-Family: Fira Sans;
+	font-weight : light;
+}
+
+.form-name:hover, .form-email:hover, .form-text:hover {
+	filter: drop-shadow( 1px 1px 10px rgba(230,230,230,0.6));
+}
+
+.form-text {
+	height : 208px;
+	
+}
+
+/*---------------------*/
+
+
+/* ПК */
+
+@media (min-width: 992px) {
+	.out-link-wrap {
+		margin-left : -20px;
+	}
+	
+	.fourth-row {
+		margin-top : -20%;
+	}	
+	
+	.third-row {
+		margin-top : 80px;
+	}	
+}
+
+/* Планшеты и меньше */
+
+@media (max-width: 991px) {
+	.second-row .left-part, .second-row .right-part {
+		text-align : center;
+	}
+	
+	.second-row {
+		margin-top : 80px;
+	}
+	
+	.second-row .right-part {
+		margin-top : 150px;
+	}	
+	
+	.png-link-icon {
+		width : 70px;
+	}	
+	
+	.svg-icon{
+		width : 70px;
+	}
+
+	.third-row {
+		margin-top : 150px;
+	}
+	
+	.form-name, .form-email, .form-text {
+		width : 60%;
+	}	
+	
+	.fourth-row {
+		margin-top : -20%;
+	}
+}

@@ -1,0 +1,142 @@
+object Form7: TForm7
+  Left = 417
+  Height = 567
+  Top = 469
+  Width = 538
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Метод трапеций'
+  ClientHeight = 567
+  ClientWidth = 538
+  Color = 14006029
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Button1: TButton
+    Left = 184
+    Height = 25
+    Top = 464
+    Width = 163
+    Caption = 'Главное меню'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 22
+    Top = 40
+    Width = 266
+    Caption = 'Введите количество разбиений'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 32
+    Height = 28
+    Top = 72
+    Width = 264
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 22
+    Top = 168
+    Width = 281
+    Caption = 'Верхний предел интегрирования'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button2: TButton
+    Left = 184
+    Height = 25
+    Top = 120
+    Width = 163
+    Caption = 'Вычислить'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 32
+    Height = 28
+    Top = 200
+    Width = 264
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 22
+    Top = 240
+    Width = 279
+    Caption = 'Нижний предел интегрирования'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit3: TEdit
+    Left = 32
+    Height = 28
+    Top = 272
+    Width = 264
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 22
+    Top = 312
+    Width = 37
+    Caption = 'Шаг'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit4: TEdit
+    Left = 34
+    Height = 28
+    Top = 344
+    Width = 264
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object Label5: TLabel
+    Left = 32
+    Height = 22
+    Top = 384
+    Width = 80
+    Caption = 'Результат'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit5: TEdit
+    Left = 32
+    Height = 28
+    Top = 416
+    Width = 264
+    ReadOnly = True
+    TabOrder = 6
+  end
+end

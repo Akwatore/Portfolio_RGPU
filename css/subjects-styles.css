@@ -1,0 +1,29 @@
+.second-row .subject-label, .second-row .lab-label {
+	text-align : center;
+	Font-Family: Fira Sans;
+	Font-Size: 36px;
+	color : rgb(255,255,255);	
+	margin-bottom : 40px;
+}
+
+.second-row .subject, .second-row .lab {
+	text-align : left;
+	margin-top : 10px;
+}
+
+.second-row .subject a, .second-row .lab a{
+	Font-Family: Fira Sans;
+	Font-Size: 25px;
+	color : rgb(255,255,255);		
+	text-decoration : none;
+	outline : none;
+	transition-property: all;
+	transition-duration : 0.3s;
+	transition-timing-function : ease-in;	
+}
+
+.second-row .subject a:hover, .second-row .lab a:hover{
+	text-shadow : 1px 1px 10px rgba(230,230,230,0.6);	
+	color : rgb(200,200,200);
+	
+}

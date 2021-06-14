@@ -1,0 +1,40 @@
+p {
+	color: blue;
+}
+h1 {
+	color: rgb(136, 143, 237);
+}
+h2 {
+	color: #0a5ba7;
+}
+li {
+	color: #67849f;
+}
+p b{
+	color: #096bc7;
+	font-size: 25px;
+}
+p i{
+	color: #1737b3;
+	font-size: 17px;
+}
+td {
+	background-image: url("image/info.jpg");
+	background-repeat: repeat-y;
+	background-position: 99% 10px;
+	background-attachment: fixed;
+}
+table{
+	background-image: url("image/anime.gif");
+	background-size: 5%;
+	background-repeat: no-repeat;
+	background-position: 64% 80%;
+}
+.color:hover
+{
+    background:#f2ffff;
+}
+.circle:hover
+{
+    border-radius:50%;
+}
